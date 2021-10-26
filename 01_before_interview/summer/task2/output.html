@@ -1,0 +1,173 @@
+<html lang="ru">
+<head><title>Тележка</title></head>
+<body>
+<style>
+    /*body {*/
+    /*    color: #f45a3b,*/
+    /*    #000000,*/
+    /*    #d8d8d8,*/
+    /*    #ff0000,*/
+    /*    #999999,*/
+    /*    #666666,*/
+    /*    #222222,*/
+    /*    #ffffff*/
+    /*}*/
+
+    html {
+        background: #fff;
+        /*background-image: linear-gradient(45deg, #f45a3b, #ffffff);*/
+    }
+
+    .red {
+        background: #ff0000;
+        width: 527px;
+        height: 15px;
+        position: absolute;
+        left: 252px;
+        top: 570px;
+    }
+
+    .red::before {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        left: -6px;
+        top: 0px;
+        background: red;
+    }
+
+    .red::after {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        right: -6px;
+        background: red;
+    }
+
+    .second-red {
+        background: #f45a3b;
+        width: 519px;
+        height: 129px;
+        border-bottom-left-radius: 23px;
+        border-bottom-right-radius: 23px;
+        position: absolute;
+        left: 256px;
+        top: 585px;
+    }
+
+    .place-for-wheels {
+        background: #222;
+        width: 470px;
+        height: 50px;
+        position: absolute;
+        left: 280px;
+        top: 715px;
+    }
+
+    .place-for-wheels::before {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 100px;
+        border-bottom: 50px solid #222;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        transform: scale(0.25) rotate(-90deg) scaleY(0.7) scaleX(1.11);
+        top: 0px;
+        left: -95px;
+    }
+
+    .place-for-wheels::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 100px;
+        border-bottom: 50px solid #222;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        transform: scale(0.25) rotate(90deg) scaleY(0.7) scaleX(1.11);
+        top: 0px;
+        right: -95px;
+    }
+
+    .place-for-wheels-second {
+        top: 740px;
+        left: 304px;
+        position: absolute;
+        height: 0;
+        width: 100px;
+        border-bottom: 100px solid #222;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        transform: rotate(180deg) scale(0.4) scaleX(3.3) scaleY(1.7);
+    }
+
+    .place-for-wheels-third {
+        top: 740px;
+        left: 526px;
+        position: absolute;
+        height: 0;
+        width: 100px;
+        border-bottom: 100px solid #222;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        transform: rotate(180deg) scale(0.4) scaleX(3.3) scaleY(1.7);
+    }
+
+    .wheel-1, .wheel-2, .wheel-3 {
+        border-radius: 50%;
+        background: black;
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 755px;
+    }
+
+    .wheel-1 {
+        left: 280px;
+    }
+
+    .wheel-2 {
+        left: 455px;
+    }
+
+    .wheel-3 {
+        left: 630px;
+    }
+
+    .cap {
+        background: #d8d8d8;
+        width: 527px;
+        height: 15px;
+        position: absolute;
+        left: 252px;
+        top: 550px;
+
+    }
+
+</style>
+
+<div class="cap"></div>
+<div class="red"></div>
+<div class="second-red"></div>
+<div class="place-for-wheels"></div>
+<div class="place-for-wheels-second"></div>
+<div class="place-for-wheels-third"></div>
+
+<div class="wheel-1"></div>
+<div class="wheel-2"></div>
+<div class="wheel-3"></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+</body>
+
+</html>

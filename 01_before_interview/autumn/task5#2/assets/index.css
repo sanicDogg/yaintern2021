@@ -1,0 +1,109 @@
+body {
+    background-color: #284B63;
+}
+
+.Heading {
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-bottom: 15px;;
+}
+
+.Layout {
+    font-family: monospace;
+
+    padding: 20px;
+
+    color: #FFFFFF;
+}
+
+.Layout-Content {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.Layout-Heading {
+    font-size: 24px;
+    text-align: center;
+}
+
+.Dashboard {
+    display: flex;
+    flex-direction: row;
+
+    background: #3C6E71;
+
+    padding: 15px 30px;
+
+    border-radius: 12px;
+}
+
+.CameraView {
+    color: #3C6E71;
+
+    padding: 15px 30px;
+    margin-top: 40px;
+
+    border-radius: 12px;
+}
+
+.CameraView-Heading {
+    text-align: center;
+}
+
+.CameraView-Img {
+    border-radius: 24px;
+}
+
+.CameraView-Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.CameraView-Content > div {
+    flex: 1;
+}
+
+.CameraView-Title {
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.CameraView-Front {
+    margin-right: 30px;
+}
+
+.CameraView-Img {
+    max-width: 100%;
+}
+
+.HardwareInfo {
+    margin-right: 30px;
+}
+
+.HardwareInfo,
+.SoftwareInfo {
+    flex: 1;
+}
+
+.HardwareInfo-Item {
+    margin-bottom: 5px;
+}
+
+.HardwareInfo-Item:last-child {
+    margin-bottom: 0;
+}
+
+.SoftwareInfo-Item {
+    margin-bottom: 5px;
+}
+
+.SoftwareInfo-Item:last-child {
+    margin-bottom: 0;
+}
+
+.Background_white {
+    background: #D9D9D9;
+}
+

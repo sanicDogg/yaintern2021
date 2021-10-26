@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Spacecraft Dashboard</title>
+        <link rel="stylesheet" href="./assets/index.css" />
+        <link rel="stylesheet" href="./assets/dashboard.css" />
+    </head>
+    <body>
+
+<!--    Возможна ошибка с React-->
+
+        <div class="Layout">
+            <div class="Layout-Content">
+
+                <div id="reactRoot"></div>
+                <div class="Layout-Heading Heading">MyRocketship Dashboard</div>
+                <div class="Dashboard">
+                    <div class="HardwareInfo">
+                        <div class="HardwareInfo-Heading Heading">
+                            Hardware Data
+                        </div>
+
+                        <div class="HardwareInfo-Item">
+                            <span class="HardwareInfo-Title">Speed:</span> <span class="HardwareInfo-Value">11.2 km/s</span>
+                        </div>
+
+                        <div class="HardwareInfo-Item">
+                            <span class="HardwareInfo-Title">Charge:</span> <span id="chargeValue" class="HardwareInfo-Value">53%</span>
+                        </div>
+
+                        <div class="HardwareInfo-Item">
+                            <span class="HardwareInfo-Title">MCC Link Strength:</span> <span id="chargeValue" class="HardwareInfo-Value">58%</span>
+                        </div>
+                    </div>
+
+                    <div class="SoftwareInfo">
+
+                    </div>
+                </div>
+
+                <div class="ControlPanel">
+                    <div class="MovementControls">
+
+                    </div>
+
+                    <div class="AIControls">
+                        
+                    </div>
+                </div>
+
+                <div class="CameraView">
+                    <div class="CameraView-Heading Heading">
+                        Camera View
+                    </div>
+
+                    <div class="CameraView-Content">
+                        <div class="CameraView-Front">
+                            <div class="CameraView-Title">Front</div>
+                            <img class="CameraView-Img" src="assets/1.jpeg" />
+                        </div>
+
+                        <div class="CameraView-Rear">
+                            <div class="CameraView-Title">Rear</div>
+                            <img class="CameraView-Img" src="assets/2.jpeg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
